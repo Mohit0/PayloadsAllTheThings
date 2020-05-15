@@ -106,6 +106,7 @@ eg: http://redacted/avatar/123%C0
 ```bash
 aws s3 ls s3://targetbucket --no-sign-request --region insert-region-here
 aws s3 ls  s3://flaws.cloud/ --no-sign-request --region us-west-2
+aws s3 --profile YOUR_ACCOUNT ls s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud
 ```
 
 You can get the region with a dig and nslookup
